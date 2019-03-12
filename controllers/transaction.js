@@ -48,8 +48,8 @@ const getnotifications = function(req,res){
 // var x= otpGenerator.generate(6, { upperCase: false, specialChars: false ,alphabets: false }); 
 const borrower=(req,res)=>{
     let awsConfig = {
-        accessKeyId: 'AKIAI7VLDTHASIPLCLIQ',
-        secretAccessKey: '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',
+        accessKeyId: 'User_access',
+        secretAccessKey: 'Access_key',
         region: 'us-east-1'
         };
         let msg = {
